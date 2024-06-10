@@ -25,7 +25,7 @@ function App() {
       setIsError(false);
     } catch (error) {
       setIsError(true);
-      toast.error("Please enter a color value", {
+      toast.error("Please enter a valid color", {
         position: "top-center",
       });
     }

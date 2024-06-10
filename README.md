@@ -1,5 +1,5 @@
 # Spectrum
-A simple responsive color palette generator built using ReactJS & Vite
+A simple responsive color palette generator built using React JS & Vite
 
 Live Website - https://theblaisecode.github.io/Spectrum
 <br/>

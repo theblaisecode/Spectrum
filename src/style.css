@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+  font-size: 1.6rem;
+}
+
+#root {
+  width: 61vw;
+}
+
+form {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+form h4 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 8rem;
+  height: 5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+input[type="color"]::-moz-color-swatch {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+input[type="text"] {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.9rem;
+  border: none;
+  outline: none;
+}
+
+form button {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachColor {
+  width: 13rem;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.eachColor p {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 550px), screen and (max-height: 550px) {
+  #root {
+    width: 95vw;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  input[type="color"] {
+    width: 5rem;
+    height: 4rem;
+  }
+
+  input[type="text"] {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+
+  .eachColor {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .eachColor p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 900px) {
+  #root {
+    width: 95vw;
+  }
+
+  input[type="color"] {
+    width: 5rem;
+    height: 4rem;
+  }
+
+  input[type="text"] {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+
+  .eachColor {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .eachColor p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1439px) {
+  #root {
+    width: 85vw;
+  }
+
+  form h4 {
+    font-size: 2.2rem;
+  }
+
+  input[type="color"] {
+    width: 6rem;
+    height: 4.5rem;
+  }
+
+  input[type="text"] {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1.3rem;
+    padding: 1.3rem;
+  }
+
+  .eachColor {
+    width: 11rem;
+    height: 11rem;
+  }
+}

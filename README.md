@@ -13,6 +13,8 @@ Live Website - https://theblaisecode.github.io/Spectrum
 
 - React JS
 - Vite
+- Values.js - https://github.com/noeldelgado/values.js/blob/master/README.md
+- React-Toastify - https://fkhadra.github.io/react-toastify/introduction
 
 <br/>
 

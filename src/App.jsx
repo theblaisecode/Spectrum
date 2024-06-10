@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import Form from "../components/Form";
+import Form from "./components/Form";
 import Values from "values.js";
 
 function App() {
@@ -35,10 +35,14 @@ function App() {
     navigator.clipboard
       .writeText(hexString)
       .then(() => {
-        console.log("Color copied to clipboard:", hexString);
+        toast("👍 Color copied to clipboard!", {
+          position: "top-center",
+        });
       })
       .catch((err) => {
-        console.error("Failed to copy color to clipboard:", err);
+        toast.error("Failed to copy color to clipboard", err, {
+          position: "top-center",
+        });
       });
   };
 

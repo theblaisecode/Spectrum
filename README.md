@@ -1,8 +1,24 @@
-# React + Vite
+# Spectrum
+A simple responsive color palette generator built using ReactJS & Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Website - https://theblaisecode.github.io/Spectrum
+<br/>
 
-Currently, two official plugins are available:
+## 🔶 Result
+![spectrum](https://github.com/theblaisecode/Spectrum/assets/89015653/03b2a992-a88a-4af7-b3b5-8c37bbd8342f)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br/>
+
+## 🔶 Tech Stack
+
+- ReactJS
+- Vite
+
+<br/>
+
+## 🔶 Authors
+
+- GitHub - [@theblaisecode](https://github.com/theblaisecode)
+- Twitter - [@theblaisecode](https://twitter.com/theblaisecode)
+- LinkedIn - [@theblaisecode](https://www.linkedin.com/in/theblaisecode)
+- Portfolio - [theblaisecode.netlify.app](https://theblaisecode.netlify.app/)

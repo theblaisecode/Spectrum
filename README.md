@@ -11,7 +11,7 @@ Live Website - https://theblaisecode.github.io/Spectrum
 
 ## 🔶 Tech Stack
 
-- ReactJS
+- React JS
 - Vite
 
 <br/>
